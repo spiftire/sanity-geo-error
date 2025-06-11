@@ -1,9 +1,9 @@
-# Sanity Clean Content Studio
+# Minimal Sanity application to demonstrate error
 
-Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
+The following error occures when trying to generate types from `groq` queries
 
-Now you can do the following things:
+```bash
+✗ Error generating types for query "getPropertiesWithin10KM" in "./queries/properties.ts": Undefined namespace: geo
+```
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+Queries can be found in [properties.ts](./queries/properties.ts)
